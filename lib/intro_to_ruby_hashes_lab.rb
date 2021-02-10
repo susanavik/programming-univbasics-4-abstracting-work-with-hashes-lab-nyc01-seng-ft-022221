@@ -6,8 +6,8 @@ end
 
 def read_from_hash(hash, key)
   hash_to_read = {
-    location: "New York"
-    occupation: "Bankers"
+    location: 'New York',
+    occupation: 'Bankers'
   }
   read_from_hash(hash_to_read, :location)
 end
