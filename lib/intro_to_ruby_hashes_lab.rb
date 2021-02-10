@@ -1,15 +1,15 @@
 def my_hash_creator(key, value)
   my_hash_creator(:name, "Nick")
   my_hash_creator(:id, 5)
-  my_hash_creator("age", 30)
+  my_hash_creator("age", 39)
 end
 
 def read_from_hash(hash, key)
-  hash_to_read = {
-    location: 'New York',
-    occupation: 'Bankers'
+  hash_to_read = {location: 'New York',
+    occupation: 'student'
   }
   read_from_hash(hash_to_read, :location)
+  read_from_hash(hash_to_read, :occupation)
 end
 
 def update_counting_hash(hash, key)
